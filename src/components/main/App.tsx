@@ -1,12 +1,13 @@
+import { Button } from '../simple';
 import React, { Component } from 'react';
 
-import '../App.scss';
+import './App.scss';
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <div>
-        <h1>Мой апп.</h1>
+        <Button>This is button</Button>
       </div>
     );
   }

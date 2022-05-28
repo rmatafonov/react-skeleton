@@ -11,12 +11,8 @@
   "author": "roman.matafonov@yandex.ru",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "7.18.2",
-    "@babel/preset-env": "7.18.2",
-    "@babel/preset-react": "7.17.12",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.5",
-    "babel-loader": "8.2.5",
     "css-loader": "6.7.1",
     "html-webpack-plugin": "5.5.0",
     "path": "0.12.7",

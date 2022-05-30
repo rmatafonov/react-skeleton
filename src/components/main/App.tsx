@@ -1,13 +1,13 @@
-import { Button } from '../simple';
 import React, { Component } from 'react';
 
 import './App.scss';
+import { CanvasComponent } from '../canvas';
 
 export class App extends Component {
   render() {
     return (
       <div>
-        <Button>This is button</Button>
+        <CanvasComponent width={50} height={50}></CanvasComponent>
       </div>
     );
   }
